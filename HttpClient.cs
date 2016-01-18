@@ -5,6 +5,7 @@ using System.Text;
 
 namespace CreateHtmlFakePages
 {
+	/// This class handles how to get the html data from the url.
     public class HttpClient
     {
         private HttpWebRequest _httpRequest;
