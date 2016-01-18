@@ -10,6 +10,8 @@ namespace CreateHtmlFakePages
     // Todo : create 8 parallel execution thread
     // todo : 1. use the main thread to check the timer.             
     //         2. to combine the data in all the threadLink files
+	
+	// A utility class to to recursilvely fetch the all the web links from a website
     internal class LinkFetcher
     {
         private double _timeSpan;
