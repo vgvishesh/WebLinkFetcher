@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace CreateHtmlFakePages
 {
+	// This class has the code to download all the images from a web page and store it on the local drive
     internal class ImageDownloader
     {
         private string _webAddress;
